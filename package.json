@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bitcore-lib": "^10.0.23",
+    "express": "^4.18.2",
+    "js-sha256": "^0.11.0",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "sha256": "^0.2.0"
+  }
+}

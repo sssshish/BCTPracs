@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Prac 5B</title>
+</head>
+<body>
+  <h1>Blockchain Prac 5B</h1>
+  <form method="post" action="/wallet"> <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required> <br>
+    <br>
+    <label for="cryptocurrency">What is your favourite Crypto?</label>
+    <br>
+    <input type="radio" id="bitcoin" name="fav_coin" value="Bitcoin">
+    <label for="bitcoin">Bitcoin</label>
+    <br>
+    <input type="radio" id="ethereum" name="fav_coin" value="Ethereum">
+    <label for="ethereum">Ethereum</label>
+    <br>
+    <input type="radio" id="doge" name="fav_coin" value="Doge">
+    <label for="doge">Doge</label>
+    
+    <br>
+    <br>
+    <label for="use">What Would You use Crypto For?</label>
+    <br>
+    <input type="checkbox" id="payments" name="uses[]" value="Payments">
+    <label for="payments">Payments</label>
+    <br>
+    <input type="checkbox" id="investments" name="uses[]" value="Investments">
+    <label for="investments">Investments</label>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+

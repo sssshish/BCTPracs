@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Editor-specific files
+.vscode/
